@@ -1,0 +1,83 @@
+import random
+
+jogos_ps1 = {
+    "Resident Evil 1": {"preco": 399.00, "estoque":random.choice(0, 15)},
+    "Resident Evil 2": {"preco": 199.90, "estoque":random.choice(0, 15)},
+    "Resident Evil 3": {"preco": 229.90, "estoque":random.choice(0, 15)},
+    "Castelvania": {"preco": 245.00, "estoque":random.choice(0, 15)},
+    "Tekken 3": {"preco": 198.00, "estoque":random.choice(0, 15)},
+    "Final Fantasy 7": {"preco": 139.00, "estoque":random.choice(0, 15)},
+    "Chrono Cross": {"preco": 449.00, "estoque":random.choice(0, 15)},
+    "Tomb Raider 2": {"preco": 159.00, "estoque":random.choice(0, 15)},
+}
+
+jogos_ps2 = {
+    "Resident Evil 4": {"preco": 149.00, "estoque":random.choice(0, 15)},
+    "God of War": {"preco": 98.00, "estoque":random.choice(0, 15)},
+    "God of War 2": {"preco": 249.00, "estoque":random.choice(0, 15)},
+    "NFS Most Wanted": {"preco": 250.00, "estoque":random.choice(0, 15)},
+    "GTA San Andreas": {"preco": 139.99, "estoque":random.choice(0, 15)},
+    "Bully": {"preco": 269.00, "estoque":random.choice(0, 15)},
+    "Black": {"preco": 398.00, "estoque":random.choice(0, 15)},
+}
+
+jogos_ps3 = {
+    "Mortal Kombat 9": {"preco": 56.00, "estoque":random.choice(0, 15)},
+    "Resident Evil 5": {"preco": 49.00, "estoque":random.choice(0, 15)},
+    "God of War 3": {"preco": 89.00, "estoque":random.choice(0, 15)},
+    "Uncharted 2": {"preco": 39.00, "estoque":random.choice(0, 15)},
+    "GTA V": {"preco": 79.00, "estoque":random.choice(0, 15)},
+    "The Last of Us": {"preco": 89.00, "estoque":random.choice(0, 15)},
+    "Batman Arkham City": {"preco": 39.00, "estoque":random.choice(0, 15)},
+}
+
+jogos_ps4 = {
+    "God of War 2018": {"preco": 269.99, "estoque": random.choice(0, 15)},
+    "God of War Ragnarork": {"preco": 249.00, "estoque": random.choice(0, 15)},
+    "The Last of Us 2": {"preco": 796.00, "estoque": random.choice(0, 15)},
+    "Red Dead Redemption 2": {"preco": 328.00, "estoque": random.choice(0, 15)},
+    "Spider-Man": {"preco": 139.00, "estoque": random.choice(0, 15)},
+    "The Witcher 3": {"preco": 237.00, "estoque": random.choice(0, 15)},
+    "Horizon Zero Dawn": {"preco": 120.00, "estoque": random.choice(0, 15)},
+    "Resident Evil 2 Remake": {"preco": 159.00, "estoque": random.choice(0, 15)},
+    "Resident Evil 3 Remake": {"preco": 233.00, "estoque": random.choice(0, 15)},
+}
+
+jogos_ps5 = {
+    "Elden Ring": {"preco": 678.00, "estoque":random.choice(0, 15)},
+    "Horizon Forbidden West": {"preco": 453.00, "estoque":random.choice(0, 15)},
+    "Ghost of Tsushima": {"preco": 198.00, "estoque":random.choice(0, 15)},
+    "Spider-Man 2": {"preco": 245.00, "estoque":random.choice(0, 15)},
+    "Dead Space": {"preco": 169.00, "estoque":random.choice(0, 15)},
+    "Gran Turismo 7": {"preco": 459.00, "estoque":random.choice(0, 15)},
+    "Resident Evil 4 Remake": {"preco": 654.00, "estoque":random.choice(0, 15)},
+}
+
+xbox_360 = {
+    "Far Cry 3": {"preco": 132.00, "estoque":random.choice(0, 15)},
+    "Minecraft": {"preco": 99.00, "estoque":random.choice(0, 15)},
+    "Halo 3": {"preco": 139.00, "estoque":random.choice(0, 15)},
+    "Forza Motosport 4": {"preco": 145.00, "estoque":random.choice(0, 15)},
+    "Dark Souls": {"preco": 289.00, "estoque":random.choice(0, 15)},
+    "Skyrim": {"preco": 289.00, "estoque":random.choice(0, 15)},
+}
+
+xbox_one  = {
+    "Metal Gear Solid V": {"preco": 345.00, "estoque":random.choice(0, 15)},
+    "Sekiro": {"preco": 246.00, "estoque":random.choice(0, 15)},
+    "Ori": {"preco": 100.00, "estoque":random.choice(0, 15)},
+    "Hollow Knight": {"preco": 98.00, "estoque":random.choice(0, 15)},
+    "Monster Hunter": {"preco": 246.00, "estoque":random.choice(0, 15)},
+    "Cuphead": {"preco": 157.00, "estoque":random.choice(0, 15)},
+    "Fortnite": {"preco": 148.00, "estoque":random.choice(0, 15)},
+}
+
+switch = {
+    "The Legend of Zelda": {"preco": , "estoque":random.choice(0, 15)},
+    "Super Mario Odyssey": {"preco": , "estoque":random.choice(0, 15)},
+    "Mario Kart 8": {"preco": , "estoque":random.choice(0, 15)},
+    "Super Smash Bros": {"preco": , "estoque":random.choice(0, 15)},
+    "Animal Crossing": {"preco": , "estoque":random.choice(0, 15)},
+    "Metroid": {"preco": , "estoque":random.choice(0, 15)},
+    "Pokémon Legends Arceus": {"preco": , "estoque":random.choice(0, 15)},
+}
